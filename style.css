@@ -1,0 +1,203 @@
+/*************** Reset *********************/
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Niramit", sans-serif;
+  font-size: 1rem;
+  background-color: rgb(254, 231, 201);
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.main {
+  margin: 0rem 10rem 0rem 10rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  padding: 1.3rem 4rem;
+  position: sticky;
+  align-items: baseline;
+  background-color: #ffffff;
+  font-family: "petala-pro", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(128, 128, 233);
+  font-weight: normal;
+}
+
+a:hover {
+  color: #210999;
+}
+
+.h1_forside,
+.h2_forside,
+.h3_forside {
+  font-size: 4rem;
+  color: rgb(128, 128, 233);
+  font-family: "petala-pro", sans-serif;
+  font-style: normal;
+}
+
+.h1_forside {
+  text-align: center;
+  font-weight: 400;
+}
+
+.h2_forside {
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.h3_forside {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.h1_underside {
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(128, 128, 233);
+  font-family: "petala-pro", sans-serif;
+  font-style: normal;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.h2_space {
+  padding: 2rem 0 2rem 0;
+}
+
+.forside {
+  margin: 5rem 10rem 5rem 10rem;
+}
+.forside_blaa {
+  background-color: rgb(128, 128, 233);
+  margin: 0rem;
+  color: white;
+}
+
+.forside_blaa_p {
+  margin: 5rem 10rem 5rem 10rem;
+}
+
+.info_boks {
+  margin: 5rem 0 1rem 0;
+  padding: 3rem 0 6rem 0;
+  font-size: 1.5rem;
+  background-color: rgb(128, 128, 233);
+  font-weight: 400;
+}
+.h3_boks {
+  text-align: center;
+}
+
+.cta_art {
+  box-sizing: border-box;
+
+  padding: 0.5rem;
+  padding-left: 1rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  gap: 10px;
+  pointer-events: painted;
+  border-radius: 20px;
+}
+
+.cta_art:hover {
+  background-color: rgb(85, 85, 185);
+}
+
+summary {
+  cursor: pointer;
+}
+
+.details {
+  font-size: 1.3rem;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  color: white;
+}
+
+footer {
+  background-color: rgb(196, 196, 241);
+  color: white;
+}
+/* Style the dropdown menu
+.dropdown {
+  position: relative;
+} */
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the dropdown items */
+.dropdown-content li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
