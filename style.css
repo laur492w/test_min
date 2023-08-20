@@ -145,6 +145,21 @@ h3 {
   text-align: center;
 }
 
+.h4_boks {
+  font-size: 1.3rem;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  color: white;
+}
+
+.h4_ris {
+  margin: 3rem 1rem 1rem 1rem;
+}
+
+.fag_img {
+  padding: 0 3.7rem 0 3.7rem;
+}
+
 .cta_art {
   box-sizing: border-box;
 

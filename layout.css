@@ -9,3 +9,17 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
+.fag_side {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.fag_img {
+  grid-column: 1/2;
+}
+
+.fag_p {
+  grid-column: 2/5;
+}
