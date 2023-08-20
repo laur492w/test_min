@@ -162,7 +162,6 @@ h3 {
 
 .cta_art {
   box-sizing: border-box;
-
   padding: 0.5rem;
   padding-left: 1rem;
   color: white;
@@ -171,6 +170,7 @@ h3 {
   gap: 10px;
   pointer-events: painted;
   border-radius: 20px;
+  font-weight: 500;
 }
 
 .cta_art:hover {
@@ -193,6 +193,18 @@ summary {
 }
 .sex_links:hover {
   color: #ffffff;
+}
+
+.liste {
+  font-size: 1.3rem;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  color: white;
+  list-style: none;
+}
+
+.liste_prev {
+  padding-top: 1rem;
 }
 
 footer {
