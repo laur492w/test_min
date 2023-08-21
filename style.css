@@ -231,6 +231,16 @@ footer {
 .footer_p {
   font-size: 0.9rem;
 }
+
+.blaa_p1 {
+  padding-top: 3rem;
+}
+
+.blaa_p2 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
 /* Style the dropdown menu
 .dropdown {
   position: relative;
